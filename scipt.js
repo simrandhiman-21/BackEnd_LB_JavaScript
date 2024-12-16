@@ -30,3 +30,79 @@ arr.forEach((val)=>{
     console.log(val);
 })
 
+// //diff ways func
+// 4types
+
+let getsum=function(arr){
+    console.log("jsvsvsavavvavscccccccipptttt");
+};
+
+
+// function hoisting
+
+// console.log(a); //error
+let a=10;
+console.log(a);
+
+console.log(b); //undefined 
+var b=9;
+
+// console.log(g); //error 
+// const g=1;
+ 
+sayname();  //works fine 
+function sayname(){
+    console.log("javavavscripttpttpt");
+}
+
+// console.log(sayn);  //error 
+// let sayn=function sayname(){
+//     console.log("javavavscripttpttpt");
+// }
+// sayname();
+
+
+console.log(s);  //undefined
+var s=function sayname(){
+    console.log("javavavscripttpttpt");
+}
+sayname();
+
+// const obj=new Human("simran",21); //error 
+// class Human{
+//     constructor(name,age){
+//         this.name=name;
+//         this.age=age;
+//     }
+// }
+// console.log(obj.age);
+
+
+// Variable scoping
+
+// let var arr obj func 
+//private mark
+
+
+class Human{
+    #rollno=1;   //private field 
+    constructor(name,age){
+        this.name=name;
+        this.age=age;
+    }
+    getRollno(){    
+        return this.#rollno;
+    }
+}
+const obj=new Human("simran",21); //error 
+console.log(obj.age);
+console.log(obj.getRollno());
+
+
+
+
+
+
+
+
+
