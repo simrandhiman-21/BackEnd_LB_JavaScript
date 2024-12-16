@@ -97,12 +97,3 @@ class Human{
 const obj=new Human("simran",21); //error 
 console.log(obj.age);
 console.log(obj.getRollno());
-
-
-
-
-
-
-
-
-
