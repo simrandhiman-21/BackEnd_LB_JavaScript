@@ -97,3 +97,21 @@ class Human{
 const obj=new Human("simran",21); //error 
 console.log(obj.age);
 console.log(obj.getRollno());
+ 
+
+//obj cloning 
+//1 spread operator 
+let src={age:12};
+let dest=src; //now both varibale ponits to same obj 
+// let dest={...src}; //shallow copy 
+// let dest=Object.assign({},src);
+//iteration loop 
+
+console.log(src);
+console.log(dest);
+
+src.age=90;
+
+console.log(src);
+console.log(dest);
+
